@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSauce-Black';
+    src: url('../fonts/open-sauce.one-semibold.ttf');
+    font-weight: 200;
+}
+
+body {
+    background-color: white;
+    position: relative;
+    background-image: url('../img/Fondo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    position: absolute;
+    top : -2vw;
+    width: 110%;
+    left : -0.5vw;
+    height: 15vh;
+    background-color: #3266cc;
+}
+
+
+.i1 {
+    position: relative;
+    left: 43vw;
+    top: -6vw;
+    width: 15%;
+    z-index: 10;
+}
+
+#quees {
+    white-space: nowrap;
+    margin-left: -10vw;
+}
+
+#inicio{
+    margin-left: 10vw
+}
+#entrega{
+    margin-left: 6vw;
+}
+button#consultar {
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 70%;
+    width: 5vw;
+    height: 2vw;
+    font-family: 'Barlow';
+    margin-left: -10vw;
+}
+
+button#consultar:hover {
+    background-color: #3266cc;
+}
+
+
+ a.barra {
+    color: white;
+    margin: 2% 1%;
+    padding: 0% 8%;
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+a.barra {
+    color: white;
+    margin: 2% 1%;
+    padding: 0% 10%;
+    text-decoration: none;
+
+}
+
+a.barra:hover{
+    color: white ;
+}
+
+
+div.barra{
+    margin-top: 2%;
+    margin-left: -8%;
+    display: flex;
+}
+
+.recblanco{
+    background-color: white;
+    position:relative;
+    border-radius: 25px;
+    top: 10vw;
+    left: 140px;
+    width: 30vw;
+    height: 75vh;
+}
+ .title {
+    font-family: 'Barlow';
+    font-size: 1.6vw;
+    text-align: center;
+ }
+ .title1 {
+    font-family: 'Barlow';
+    font-size: 1.6vw;
+    text-align: center;
+    margin-top: -2vw;
+ }
+ .subtitle {
+    font-family: 'OpenSauce-Black';
+    text-align: center;
+    font-size: 0.6vw;
+ }
+ .primero{
+    align-items: center;
+    width: 25vw;
+    height: 3vh;
+    position: relative;
+    top: 2vw;
+    left: 3vw;
+}
+.segundo{
+    align-items: center;
+    position: relative;
+    width: 25vw;
+    height: 3vh;
+    left: 3vw;
+}
+.texto {
+    font-family: 'OpenSauce-Black';
+    font-size: 0.7vw;
+    position: relative;
+    left: 3vw;
+    top: 1.5vw;
+
+}
+.texto2 {
+    font-family: 'OpenSauce-Black';
+    font-size: 0.7vw;
+    position: relative;
+    left: 3vw;
+
+}
+
+button#consultar1 {
+    background-color: #3266cc;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 80%;
+    width: 8vw;
+    height: 2vw;
+    font-family: 'Barlow';
+    margin-top: 2vw;
+    margin-left: 12vw;
+
+}
+
+button#consultar1:hover {
+    background-color: #3266cc;
+}
+
+div .iniciop1 {
+    position: relative;
+    left: 60vw;
+    top: -20vw;
+}
+
+.t1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7vw;
+
+}
+
+.st1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    position:relative;
+    left: -39vw;
+
+}
+
+button#conoce {
+    background-color: #3266cc;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 80%;
+    width: 8vw;
+    height: 2vw;
+    font-family: 'Barlow';
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+
+}
+
+button#conoce:hover {
+    background-color: #3266cc;
+}
+
