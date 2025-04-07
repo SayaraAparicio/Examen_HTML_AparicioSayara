@@ -9,6 +9,16 @@
     font-weight: 200;
 }
 
+@font-face {
+    font-family: 'Myriad1';
+    src: url('../fonts/Myriad\ Pro\ Light.otf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Myriad2';
+    src: url('../fonts/Myriad\ Pro\ Regular.ttf');
+    font-weight: 200;
+}
 body {
     background-color: white;
     position: relative;
@@ -18,12 +28,13 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top : -2vw;
     width: 110%;
     left : -0.5vw;
     height: 15vh;
     background-color: #3266cc;
+    z-index: 10;
 }
 
 
@@ -129,6 +140,7 @@ div.barra{
     width: 25vw;
     height: 3vh;
     left: 3vw;
+    font-family: 'Myriad1';
 }
 .texto {
     font-family: 'OpenSauce-Black';
@@ -170,17 +182,17 @@ div .iniciop1 {
 }
 
 .t1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Myriad1';
     font-size: 2.7vw;
 
 }
 
 .st1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Myriad2';
     font-size: 1vw;
     text-align: center;
     position:relative;
-    left: -39vw;
+    left: -40vw;
 
 }
 
@@ -201,3 +213,19 @@ button#conoce:hover {
     background-color: #3266cc;
 }
 
+div #Que{
+    position: relative;
+    top: 10vw;
+    align-items: center;
+    font-size: 20px;
+}
+.def {
+    font-family: 'Myriad2';
+
+
+}
+
+.desc{
+    font-family: 'Myriad1';
+    text-align: center;
+}
